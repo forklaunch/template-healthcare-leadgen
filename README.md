@@ -38,10 +38,8 @@ deployed URL so emailed magic links resolve here.
 
 ## The sealed package
 
-`vendor/forklaunch-healthcare-leadgen-ui-<version>.tgz` is the packed npm
-package, committed so forks are self-contained. To upgrade, run
-`pnpm pack:template` in `healthcare-leadgen/packages/portal-ui`, commit the
-new tarball here, bump the `file:` spec in `package.json`, and
-`pnpm install`. Once the package is published to the npm registry
-(`pnpm publish` — it is publish-ready with public access), replace the
-`file:` spec with a semver range and delete `vendor/`.
+The portal UI is consumed from the public npm registry:
+[`@forklaunch/healthcare-leadgen-ui`](https://www.npmjs.com/package/@forklaunch/healthcare-leadgen-ui).
+New versions are published from `healthcare-leadgen/packages/portal-ui`
+(`pnpm publish`); to pick one up in a fork, bump the semver range in
+`package.json` and `pnpm install`.
