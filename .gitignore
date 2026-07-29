@@ -1,0 +1,13 @@
+# Secrets — never commit local env files
+.env
+.env.local
+*.env.local
+
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+.idea/
+.vercel/
+
+# NOTE: vendor/*.tgz IS committed — it is the sealed UI package
