@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@forklaunch/healthcare-leadgen-ui':
-        specifier: ^0.7.0
-        version: 0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^0.8.0
+        version: 0.8.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -257,8 +257,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@forklaunch/healthcare-leadgen-ui@0.7.0':
-    resolution: {integrity: sha512-P/cR13NQbAewC/QeS2YJW0hSrDqqDfCR/EyPLNfvWv73F6wJUJyFVgjg9GbjJLfcP6e3ARGxoxesXMcQ2PJsog==}
+  '@forklaunch/healthcare-leadgen-ui@0.8.0':
+    resolution: {integrity: sha512-jszZ302YFnLLYdvlapPgTfPtccHX1Tm48XE7ca9uDj4uEYVm/U82l7gDlLwThWKQNe04/SXaBnDEP54PbXPTBg==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
@@ -784,7 +784,7 @@ snapshots:
   '@esbuild/win32-x64@0.21.5':
     optional: true
 
-  '@forklaunch/healthcare-leadgen-ui@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@forklaunch/healthcare-leadgen-ui@0.8.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
